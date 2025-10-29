@@ -163,7 +163,6 @@ int main(){
     Student S2;
     Student S3;
 
-
     S1.ID = 67;
     S1.name = "Tho Vicheka";
     S1.major = "AI Researcher";
