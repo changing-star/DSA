@@ -14,15 +14,21 @@ class DoublyNode {
 };
 
 class DoublyLinkedList {
-    public:
+    private:
         int size;
         DoublyNode* head;
         DoublyNode* tail;
+
+    public:
         DoublyLinkedList(){
             size = 0;
             head = nullptr;
             tail = nullptr;
         };
+
+        int getSize(){
+            return size;
+        }
 
         void add(int value){
             DoublyNode* newNode = new DoublyNode(value);
@@ -103,7 +109,7 @@ int main(){
     cout << "Backward traversal: ";
     list.displayBackward();
     
-    cout << "Size: " << list.size << endl;
+    cout << "Size: " << list.getSize() << endl;
     
     return 0;
 }

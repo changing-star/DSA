@@ -13,11 +13,12 @@ class CircularNode{
 };
 
 class CircularLinkedList{
-    public:
+    private:
         CircularNode* head;
         CircularNode* tail;
         int size;
-
+        
+    public:
         CircularLinkedList() {
             head = nullptr;
             tail = nullptr;
