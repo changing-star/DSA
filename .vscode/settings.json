@@ -6,6 +6,7 @@
         "audio.h": "c",
         "stdio.h": "c",
         "highscore.h": "c",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "iostream": "cpp"
     }
 }
