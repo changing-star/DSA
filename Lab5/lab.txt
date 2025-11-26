@@ -1,0 +1,41 @@
+Lab 05
+▪Tree data structure
+33
+Lab05
+Create two classes Node and Tree that can hold these data below.
+(no need to add implementation of operations inside the Tree class yet.)
+34
+Exercise 1
+Lab05
+Make an extension to Exercise 1.
+Add full implementation for the Binary Search Tree. Test it in Main by inserting
+the following data. Construct the same tree as below. Then test traversal of this
+tree using in-order (LDR), post-order (LRD) and pre-order methods (LRD).
+35
+Exercise 2
+Lab05
+Construct a BST that can hold name of students. Test your program in main.
+Hint: you can use name (string A-Z order) for the criteria when testing
+condition whether the product data should be store in the left or right sub-tree.
+36
+Exercise 3
+Lab05
+Construct a BST that can store product list. Test your program in main. Also add
+function search so that we can search for a product by ID.
+Hint: you can use product ID or product name for the criteria when testing
+condition whether the product data should be store in the left or right sub-tree.
+37
+Exercise 4
+Lab05
+Generate 1 million citizen ID and store in a file csv.
+Read data from file and store these citizen ID of person into a binary search tree.
+Create ADT operations below:
+a-Insert data to BST
+b-Display this BST using pre-order traversal (DLR)
+c-Display this BST using in-order traversal (LDR)
+d-Display this BST using post-order traversal (LRD)
+e-Search data in a BST. Ask a user for citizen ID then the program tell whether this ID is
+exist in the BST.
+Test your program in main.
+38
+Exercise 5
